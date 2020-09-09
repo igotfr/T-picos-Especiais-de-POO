@@ -8,6 +8,8 @@
 - [ ] Sim
 - [ ] Não
 
+___
+
 ## Produto
 ### Código de identificação
 - Interno
@@ -15,6 +17,8 @@
 - DUN, SKU
 
 ### Valor de venda
+
+___
 
 ## Controle de estoque
 ### Unidades
@@ -31,6 +35,8 @@
 
 ### Unidades saída
 - Motivo saída
+
+___
 
 ## Formas de Pagamento
 - Dinheiro
