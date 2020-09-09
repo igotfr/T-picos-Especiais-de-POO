@@ -1,5 +1,7 @@
 - uma boutique é "uma pequena loja que vende roupas elegantes, jóias, ímãs ou outros itens geralmente de luxo
 
+- telemarketing não é mais socialmente aceitável
+
 ## Emissão de NFC-e
 - [ ] Sim
 - [ ] Não
