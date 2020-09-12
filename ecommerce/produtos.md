@@ -6,10 +6,10 @@
 
 Código Interno | GTIN / EAN | Descrição | Valor de venda | Quantidade em estoque | Categoria | GPC | NCM | CEST | RFID | DUN | SKU | Fabricante | Marca | País de origem
 ---------------|------------|-----------|----------------|-----------------------|-----------|-----|-----|------|------|-----|-----|------------|-------|-------
- | | | | | | | | | | | | | calculado de estoque
+ | | | | | | | | calculado de estoque
 
 
-```javascript
+```json
 identificadores: {
   codigoInterno: int,
   gtin/ean: string
