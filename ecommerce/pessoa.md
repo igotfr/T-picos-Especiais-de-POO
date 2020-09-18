@@ -22,6 +22,7 @@ telefones: [
 dataNascimento: Date,
 naturalidade: {
   CEP: string | int,
+  país: string,
   estado: string,
   cidade: string,
   bairro/distrito: string,
