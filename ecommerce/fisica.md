@@ -1,3 +1,4 @@
+```json
 id: int,
 pessoa: (identificação de Pessoa: id e/ou identificadoresCivis ou nome),
 identificadoresCivis: {
@@ -26,3 +27,4 @@ naturalidade: {
 },
 pai: (identificação de Pessoa: id e/ou identificadoresCivis ou nome),
 mãe: (identificação de Pessoa: id e/ou identificadoresCivis ou nome)
+```
