@@ -4,7 +4,7 @@
 - https://cosmos.bluesoft.com.br/
 - https://www.gs1br.org/faq/Paginas/O-que-%C3%A9-o-GTIN-.aspx
 
-Código Interno | GTIN / EAN | Descrição | Valor de venda | Quantidade em estoque | Categoria | GPC | NCM | CEST | RFID | DUN | SKU | Fabricante | Marca | País de origem
+Código Interno | GTIN / EAN-13 | Descrição | Valor de venda | Quantidade em estoque | Categoria | GPC | NCM | CEST | RFID | DUN | SKU | Fabricante | Marca | País de origem
 ---------------|------------|-----------|----------------|-----------------------|-----------|-----|-----|------|------|-----|-----|------------|-------|-------
  | | | | | | | | calculado de estoque
 
@@ -12,7 +12,7 @@ Código Interno | GTIN / EAN | Descrição | Valor de venda | Quantidade em esto
 ```json
 identificadores: {
   codigoInterno: int,
-  gtin/ean: string
+  gtin/ean-13: string
 },
 descricao: string,
 valorVenda: float,
