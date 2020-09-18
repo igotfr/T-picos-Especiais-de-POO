@@ -1,36 +1,55 @@
 nome | RG | CPF | Telefone | Endereço | 
 
-```mongo
+```json
 nome: string,
 id: int,
 identificadoresCivis: {
   RG: {
     numero: int | string,
     orgaoExpedidor: string,
-    dataExpedicao: Date,
+    dataExpedicao: Date
   },
   CPF: string | int
 },
-dataNascimento: Date,
-naturalidade
-telefones: [string | int],
-enderecos: [
-  {
-    ativo: bool,
-    CEP: string | int,
-    estado: string,
-    cidade: string,
-    bairro/distrito: string,
-    logradouro: {
-      tipo: string,
-      nome: string
-    },
-    numero: int,
-    quadra: int,
-    lote: int,
-    complemento: string
-  }
+telefones: [
+{
+  codigoOperadora: int(2),
+  prefixoInternacional(DDI): int,
+  prefixoNacional(codigoArea, DDD): int(2),
+  numero: int(9)
+}
 ],
-pai: (identificação de Pessoa, id e/ou identificadoresCivis ou nome),
-mãe: (identificação de Pessoa, id e/ou identificadoresCivis ou nome)
+dataNascimento: Date,
+naturalidade: {
+  CEP: string | int,
+  estado: string,
+  cidade: string,
+  bairro/distrito: string,
+  logradouro: {
+    tipo: string,
+    nome: string
+  },
+  numero: int,
+  quadra: int,
+  lote: int,
+  complemento: string
+}
+enderecos: [
+{
+  ativo: bool,
+  CEP: string | int,
+  estado: string,
+  cidade: string,
+  bairro/distrito: string,
+  logradouro: {
+    tipo: string,
+    nome: string
+  },
+  numero: int,
+  quadra: int,
+  lote: int,
+  complemento: string
+}],
+pai: (identificação de Pessoa: id e/ou identificadoresCivis ou nome),
+mãe: (identificação de Pessoa: id e/ou identificadoresCivis ou nome)
 ```
