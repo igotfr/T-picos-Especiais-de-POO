@@ -1,6 +1,13 @@
 ```json
 id: int,
+
 pessoa: (identificação de Pessoa: id e/ou identificadoresCivis ou nome),
+pessoa: {
+  id: int,
+  nome/razaoSocial: string,
+  apelido/fantasia: string,
+}
+
 identificadoresCivis: {
   RG: {
     numero: int | string,
