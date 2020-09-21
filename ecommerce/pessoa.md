@@ -11,16 +11,19 @@ telefones: ?[
 {
   ativo: bool,
   codigoOperadora: int?(algarismos: 2),
-  prefixoInternacional(DDI): int?(algarismos: >=1 && <=3),
+  prefixoInternacional(DDI): int?(algarismos: 1:3),
   prefixoNacional(codigoArea, DDD): int?(algarismos: 2),
-  numero: int(9)
+  numero(SN - Subscriber Number): int(algarismos: 6:9)
 }],</pre></summary>
 
   <pre>
 Implementação:
   1ª Opção: cada chave-valor do Javascript Object pode corresponder a um input
-  2ª Opção: um único input para cada telefone, o valor é dividido em substrings cujos valores são alocados às chaves correspondentes através de uma função
+  2ª Opção: um único input para cada telefone, o valor é dividido em substrings cujos valores são alocados às chaves
+  correspondentes através de uma função
     pattern input: 
+
+Links: https://www.cm.com/blog/how-to-format-international-telephone-numbers/
   </pre>
 </details>
 
