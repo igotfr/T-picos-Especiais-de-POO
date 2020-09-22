@@ -31,7 +31,14 @@ Links: https://www.cm.com/blog/how-to-format-international-telephone-numbers/
 enderecos: ?[
 {
   ativo: bool,
-  CEP: string | int,
+```
+<details>
+  <summary>CEPbrasileiro: string() | int(8),</summary>
+
+  https://www.mbi.com.br/mbi/biblioteca/paises/codigo-postal/
+</details>
+
+```json
   país: {
     codigoISO: string,
     nome: string
