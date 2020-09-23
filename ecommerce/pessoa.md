@@ -33,16 +33,17 @@ enderecos: ?[
   ativo: bool,
 ```
 <details>
-  <summary>CEPbrasileiro: string() | int(8),</summary>
+  <summary><code>CEPbrasileiro: string() | int(8),</code></summary>
 
   https://www.mbi.com.br/mbi/biblioteca/paises/codigo-postal/
 </details>
 
-```json
   país: {
-    codigoISO: string,
+    codigoISO2: string(2),
+    codigoISO3: string(3),
     nome: string
   }
+```json
   UF: {
     idIBGE: int,
     sigla: string(2),
