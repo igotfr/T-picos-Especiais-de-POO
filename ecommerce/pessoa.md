@@ -39,18 +39,18 @@ enderecos: ?[
 </details>
 
   país: {
-    codigoISO2: string(2),
-    codigoISO3: string(3),
+    codigoISO2: string(2, [A-Z]),
+    codigoISO3: string(3, [A-Z]),
     nome: string
   }
 ```json
   UF: {
-    idIBGE: int,
-    sigla: string(2),
+    idIBGE: int(11:17 || 21:29 || 31:33 || 35 || 41:43 || 50:53),
+    sigla: string(2, [A-GI-JL-PR-T]),
     nome: string
   },
   municipio: {
-    idIBGE: int,
+    idIBGE: int(algarismos: 5),
     nome: string
   }
   bairro/distrito: string,
