@@ -33,7 +33,8 @@ enderecos: ?[
   ativo: bool,
 ```
 <details>
-  <summary><code>CEPbrasileiro: string() | int(8),</code></summary>
+  <summary><pre>
+  CEPbrasileiro: string() | int(8),</pre></summary>
 
   https://www.mbi.com.br/mbi/biblioteca/paises/codigo-postal/
 </details>
